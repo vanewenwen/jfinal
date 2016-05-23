@@ -1,0 +1,1 @@
+create table student( id int(4) primary key not null auto_increment,name varchar(10),age int(8),sex  varchar(2), fk_classId int(4))ENGINE=InnoDB DEFAULT CHARSET=utf8;
